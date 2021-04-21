@@ -1,0 +1,23 @@
+{
+  "name": "@Viraj-Sonavane/travel-test",
+  "version": "2.0.9",
+  "description": "Travel-package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csci620/vdsonavane/tree/main/api"
+  },
+  "keywords": [
+    "testing",
+    "travel-pacakage",
+    "Assignment"
+  ],
+  "author": "Viraj Sonavane",
+  "license": "MIT",
+  "dependencies": {
+    "google-geolocation": "^1.0.2"
+  }
+}

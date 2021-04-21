@@ -1,0 +1,25 @@
+td,
+th {
+    border: 1px solid rgb(136, 131, 131);
+    padding: 20px;
+    font-size: 1rem;
+}
+
+td {
+    text-align: center;
+    font-size: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-weight:bold;
+    font-size: 40px;
+    color: rgb(15, 15, 15);
+}
+
+input{
+    font-size: 15px;
+    box-sizing:inherit;
+    width: 200px;
+    height: 40px;
+
+}
+
+html{
+    font-size: 15px;
+    font-family: Arial,sans-serif;
+}
+
+nav{
+    color: #fff;
+    background: linear-gradient(-45deg, #971a1a, #979695, #3f3e3e, #141414);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+button{
+    font-size: larger;
+    text-align: end;
+}
+
+section{
+    width: 100%;
+    height: 100vmax;
+    color: #fff;
+    background: linear-gradient(-45deg, #180803, #d3b563, #9e2406, #1f1a1a);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
