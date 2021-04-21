@@ -22,6 +22,12 @@ Packages used as below,
  - plugins for video upload.
  - Graphic trend plugins.
 
+## Run Program 
+ - npm install -g @angular/cli
+ - cd client	
+ - npm install
+ - ng serve
+
 ## Reference 
 #TO-Do
 
